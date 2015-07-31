@@ -19,7 +19,7 @@ void Manager::setup(int width_, int height_)
 	s.height = height;
 	s.useDepth = true;
 	s.useStencil = true;
-	s.internalformat = GL_RGB;
+	s.internalformat = GL_RGBA;
 
 	layerFrameBuffer.allocate(s);
 	
